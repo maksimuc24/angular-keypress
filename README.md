@@ -1,7 +1,7 @@
 angular-keypress directive
 ================
 
-angular  keypress directive
+angular  keypress directive by @Maksym Dikhtiar
 ##How to :##
 1) include angular-keypress js file 
 ```
@@ -17,8 +17,7 @@ angular.module('app-name',['angular-keypress']);
                             { "key-code":"13;27",
                               "func":"Function1(),Function2()"
                             }]'
-          type="text"
->
+          type="text">
 ```
 4) use directive with option
 ```
@@ -27,13 +26,12 @@ angular.module('app-name',['angular-keypress']);
                               "func":"Function1(),Function2()",
                               "is-true-expression":"a<b"
                             }]'
-          type="text"
->
+          type="text">
 ```
 Options
 
 - <b>key-code</b> - which key user should press to call a functions (13 - Enter, 27 - Esc ...)
-- func - function which will be called
-- is-true-expression- here u can write exception and if this exception gives true then functions from 'func' will be called
+- <b>func</b> - function which will be called
+- <b>is-true-expression</b> - here u can write exception and if this exception gives true then functions from 'func' will be called
 
 
