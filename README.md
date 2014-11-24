@@ -1,4 +1,4 @@
-angular-keypress
+angular-keypress directive
 ================
 
 angular  keypress directive
