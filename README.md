@@ -4,7 +4,7 @@ angular-keypress directive by @ Maksym Dikhtiar
 ##How to :##
 1) include angular-keypress js file 
 ```
-<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="../dist/angular-keypress.js"></script>
 ```
 2) include angular-keypress directive module to  app
 ```
