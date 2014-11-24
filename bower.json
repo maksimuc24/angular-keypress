@@ -1,0 +1,20 @@
+{
+  "name": "angular-keypress",
+  "version": "1",
+  "homepage": "...",
+  "authors": [
+    "Dihtiar Maksim "
+  ],
+  "description": "angular keypress directive",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+     "angular": "~1.3.0",
+      "bootstrap": "*"
+  }
+}
