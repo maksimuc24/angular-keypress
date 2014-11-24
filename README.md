@@ -27,10 +27,10 @@ angular.module('app-name',['angular-keypress']);
                             }]'
           type="text">
 ```
-<b>***</b>u can split keycode and function use this symbols 
-1)  ,
-2)  :
-3)  ;
+<p><b>***u can split keycode and function use this symbols</b> </p>
+<p>1)  ,</p>
+<p>2)  :</p>
+<p>3)  ;</p>
 ##Options:##
 
 - <b>key-code</b> - which key user should press to call a functions (13 - Enter, 27 - Esc ...)
