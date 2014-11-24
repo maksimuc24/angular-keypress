@@ -1,7 +1,6 @@
-angular-keypress directive
+angular-keypress directive by @ Maksym Dikhtiar
 ================
 
-angular  keypress directive by @Maksym Dikhtiar
 ##How to :##
 1) include angular-keypress js file 
 ```
@@ -28,7 +27,11 @@ angular.module('app-name',['angular-keypress']);
                             }]'
           type="text">
 ```
-Options
+<b>***</b>u can split keycode and function use this symbols 
+1)  ,
+2)  :
+3)  ;
+##Options:##
 
 - <b>key-code</b> - which key user should press to call a functions (13 - Enter, 27 - Esc ...)
 - <b>func</b> - function which will be called
