@@ -24,6 +24,9 @@ angular.module('app-name',['angular-keypress']);
                             { "key-code":"13;27",
                               "func":"Function1(),Function2()",
                               "is-true-expression":"a<b"
+                            },
+                            { "key-code":"88;106",
+                              "func":"Function3()"
                             }]'
           type="text">
 ```
