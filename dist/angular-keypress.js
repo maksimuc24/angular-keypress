@@ -1,6 +1,6 @@
 (function (){
   'use strict'
-
+     
      angular
             .module('angular-keypress',[])
             .directive('angularKeypress',angularKeypress)
@@ -24,9 +24,8 @@
                                               });
                             }
 
-                            //wait for keydown
+                            //wait for keydown 
                             elm.bind('keydown', function(e){
-                                      //готовим финкции
                                       obj = angular.fromJson(attrs.angularKeypress);
                                       keysAssot = [];
                                       obj.forEach(function(element){
@@ -44,7 +43,7 @@
                                                         }); 
                                       });
 
-                                      //проверка на совпадение
+                                     //check for key code
                                      keysAssot.forEach(function(k){
                                               if(e.keyCode == k['key']){
                                                         if(k.hasOwnProperty("is-true-expression")){
